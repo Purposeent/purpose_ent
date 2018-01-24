@@ -18,9 +18,9 @@ body {
   z-index: 1000;
 }
 
-.header {
+/* .header {
   background-color: #000;
-}
+} */
 
 #logo {
   background-image: url('../img/logo.jpg');
@@ -137,26 +137,23 @@ nav ul a:hover {
 
 /* home */
 
-.carousel-item {
-  height: 100%;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+/* .carousel {
+  height: 100vh;
+} */
+
+.full-screen {
   background-size: cover;
-  margin-top: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-
-.carousel-item img {
-  height: 100%;
-  width: 100%;
-  margin-top: 100px;
+.carousel-control:hover {
+  opacity: none;
 }
 
-.carousel-item .artist1 {
-  height: auto;
-  margin-top: -100px;
+.item h3 {
+  color: #e33;
+  font-size: 45px;
 }
 
 /* about page */
@@ -224,6 +221,10 @@ nav ul a:hover {
 .card-body a:hover {
   color: #111;
   transition: .25s ease-in-out;
+}
+
+.samantha {
+  height: 50%;
 }
 
 
