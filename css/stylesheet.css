@@ -18,18 +18,22 @@ body {
   z-index: 1000;
 }
 
+.logo-container a {
+  background-color: transparent;
+}
+
 /* .header {
   background-color: #000;
 } */
 
 #logo {
-  background-image: url('../img/logo.jpg');
-  background-size: auto 90%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  max-height: 100%;
-  height: 142px;
-  width: auto;
+    background-image: url(../img/logo.png);
+    background-size: auto 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    height: 142px;
+    width: auto;
 }
 
 /* header / navigation */
