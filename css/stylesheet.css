@@ -27,8 +27,8 @@ body {
 } */
 
 #logo {
-    background-image: url(../img/logo_transparent.png);
-    background-size: auto 90%;
+    background-image: url(../img/fixed_logo_transparent.png);
+    background-size: auto 165%;
     background-position: center center;
     background-repeat: no-repeat;
     max-height: 100%;
@@ -149,6 +149,8 @@ nav ul a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 142px;
+
 }
 
 .carousel-control:hover {
@@ -225,10 +227,6 @@ nav ul a:hover {
 .card-body a:hover {
   color: #111;
   transition: .25s ease-in-out;
-}
-
-.samantha {
-  height: 50%;
 }
 
 
