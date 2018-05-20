@@ -14,7 +14,7 @@ body {
   /* position: fixed; */
   top: 0;
   width: 100%;
-  background-color: rgba(0,0,0,.1);
+  background-color: rgba(0,0,0,.3);
   z-index: 1000;
 }
 
@@ -141,9 +141,9 @@ nav ul a:hover {
 
 /* home */
 
-/* .carousel {
+ /*.carousel {
   height: 100vh;
-} */
+}*/
 
 .full-screen {
   background-size: cover;
@@ -164,7 +164,7 @@ nav ul a:hover {
 
 /* about page */
 .about {
-  margin-top: 140px;
+  padding-top: 100px;
   height: 100%;
   background-color: #000;
   color: #fff;
@@ -176,6 +176,7 @@ nav ul a:hover {
   display: block;
   width: 90%;
   margin: auto;
+  padding-bottom: 174px;
 }
 
 .artist-list {
