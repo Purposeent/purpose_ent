@@ -1,30 +1,19 @@
-// $(document).ready(function() {
-//   // $(".rotate").click(function() {
-//   //   $(this).toggleClass('down');
-//   // });
+// setTimeout(clickThis, 3000);
 //
-//   $('.carousel').carousel({
-//     interval: 5000,
-//     pause: "false"
-//   });
 //
-//   var $item = $('.carousel .item');
-//   // var $wHeight = $(window).height();
-//   $item.eq(0).addClass('active');
+// function clickThis() {
+//   document.getElementById("clickMe").click();
+// }
 //
-//   // $item.height($wHeight);
-//   $item.addClass('full-screen');
 //
-//   // $('.carousel img').each(function() {
-//   //   var $src = $(this).attr('src');
-//   //   $(this).parent().css({
-//   //     'background-image': 'url(' + $src + ')'
-//   //   });
-//   //   $(this).remove();
-//   // });
-//
-//   $(window).on('resize', function() {
-//     // $wHeight = $(window).height();
-//     // $item.height($wHeight);
-//   });
-// });
+// setTimeout()
+function clickThis() {
+  document.getElementById("clickMe").click();
+}
+
+function callMe(){
+  clickThis();
+  setTimeout(callMe, 3000)
+}
+
+callMe();
